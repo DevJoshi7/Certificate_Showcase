@@ -1,0 +1,76 @@
+/* Basic resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1C1427;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #0E185F;
+  color: white;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.certificate-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.certificate-card {
+  background: #1C1427;
+  border: 0px solid #ddd;
+  border-radius: 1px;
+  overflow: hidden;
+  margin: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 600px;
+}
+
+.certificate-card img {
+  width: 100%;
+  height: auto;
+}
+
+.certificate-details {
+  padding: 1rem;
+  text-align: center;
+}
+
+.certificate-details h3 {
+  color: #F6F6F6;
+  margin-bottom: 0.5rem;
+}
+
+.certificate-details p {
+  font-size: 0.9rem;
+  color: #F6F6F6;
+}
+
+footer {
+  background-color: #0E185F;
+  color: #F6F6F6;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
